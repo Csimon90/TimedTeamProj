@@ -1,0 +1,5 @@
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\10_Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\10_Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\10_Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\10_Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\10_Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
