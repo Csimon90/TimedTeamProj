@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\bin\Debug\net6.0\08_Contructor.exe
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\bin\Debug\net6.0\08_Contructor.deps.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\bin\Debug\net6.0\08_Contructor.runtimeconfig.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\bin\Debug\net6.0\08_Contructor.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\bin\Debug\net6.0\08_Contructor.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\refint\08_Contructor.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\08_Contructor.genruntimeconfig.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\Constructor\obj\Debug\net6.0\ref\08_Contructor.dll

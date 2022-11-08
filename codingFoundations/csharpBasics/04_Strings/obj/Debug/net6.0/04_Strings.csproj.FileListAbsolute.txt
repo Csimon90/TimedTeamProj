@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\bin\Debug\net6.0\04_Strings.exe
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\bin\Debug\net6.0\04_Strings.deps.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\bin\Debug\net6.0\04_Strings.runtimeconfig.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\bin\Debug\net6.0\04_Strings.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\bin\Debug\net6.0\04_Strings.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\refint\04_Strings.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\04_Strings.genruntimeconfig.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\04_Strings\obj\Debug\net6.0\ref\04_Strings.dll

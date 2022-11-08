@@ -1,0 +1,5 @@
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\08_Properties\obj\Debug\net6.0\Properties.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\08_Properties\obj\Debug\net6.0\Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\08_Properties\obj\Debug\net6.0\Properties.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\08_Properties\obj\Debug\net6.0\Properties.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\08_Classes\08_Properties\obj\Debug\net6.0\Properties.csproj.CoreCompileInputs.cache

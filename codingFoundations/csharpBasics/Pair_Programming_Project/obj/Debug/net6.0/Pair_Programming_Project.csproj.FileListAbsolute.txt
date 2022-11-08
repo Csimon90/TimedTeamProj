@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\bin\Debug\net6.0\Pair_Programming_Project.exe
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\bin\Debug\net6.0\Pair_Programming_Project.deps.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\bin\Debug\net6.0\Pair_Programming_Project.runtimeconfig.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\bin\Debug\net6.0\Pair_Programming_Project.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\bin\Debug\net6.0\Pair_Programming_Project.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\refint\Pair_Programming_Project.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\Pair_Programming_Project.genruntimeconfig.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\Pair_Programming_Project\obj\Debug\net6.0\ref\Pair_Programming_Project.dll

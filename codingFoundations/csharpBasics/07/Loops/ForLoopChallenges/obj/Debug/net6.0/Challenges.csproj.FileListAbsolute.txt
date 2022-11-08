@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\bin\Debug\net6.0\Challenges.exe
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\bin\Debug\net6.0\Challenges.deps.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\bin\Debug\net6.0\Challenges.runtimeconfig.json
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\bin\Debug\net6.0\Challenges.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\bin\Debug\net6.0\Challenges.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\refint\Challenges.dll
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.pdb
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\Challenges.genruntimeconfig.cache
+C:\ElevenFiftyProjects\codingFoundations\csharpBasics\07\Loops\ForLoopChallenges\obj\Debug\net6.0\ref\Challenges.dll
