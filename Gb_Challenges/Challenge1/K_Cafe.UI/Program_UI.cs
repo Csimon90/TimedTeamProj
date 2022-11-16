@@ -1,18 +1,17 @@
 
-    public class Program_UI
+public class Program_UI
+{
+    public void Run()
     {
-        public void Run()
-        {
-            RunApplication();
-        }
-
-        public RunApplication()
-        {
-            bool isRunning = true;
-            while (isRunning)
-            {
-                System.Console.WriteLine("(....");
-            }
-        }
-        
+        RunApplication();
     }
+
+    public void RunApplication()
+    {
+        bool isRunning = true;
+        while (isRunning)
+        {
+            System.Console.WriteLine("(....");
+        }
+    }
+}
