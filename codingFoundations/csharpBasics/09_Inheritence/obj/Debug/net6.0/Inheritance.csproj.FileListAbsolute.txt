@@ -1,5 +1,0 @@
-C:\ElevenFiftyProjects\codingFoundations\csharpBasics\09_Inheritence\obj\Debug\net6.0\Inheritance.csproj.AssemblyReference.cache
-C:\ElevenFiftyProjects\codingFoundations\csharpBasics\09_Inheritence\obj\Debug\net6.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
-C:\ElevenFiftyProjects\codingFoundations\csharpBasics\09_Inheritence\obj\Debug\net6.0\Inheritance.AssemblyInfoInputs.cache
-C:\ElevenFiftyProjects\codingFoundations\csharpBasics\09_Inheritence\obj\Debug\net6.0\Inheritance.AssemblyInfo.cs
-C:\ElevenFiftyProjects\codingFoundations\csharpBasics\09_Inheritence\obj\Debug\net6.0\Inheritance.csproj.CoreCompileInputs.cache
