@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\TimedTeam.Data\TimedTeam.Data.csproj" />
+    <ProjectReference Include="..\TimedTeam.Models\TimedTeam.Models.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
