@@ -24,7 +24,14 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "launchBrowser": {
+                "enabled": true
+            },
+            "logging":{
+                "moduleLoad": false
+            },
+
         },
         {
             "name": ".NET Core Attach",
