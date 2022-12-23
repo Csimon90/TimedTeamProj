@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TimedTeam.Services\TimedTeam.Services.csproj" />
+    <ProjectReference Include="..\TimedTeam.Models\TimedTeam.Models.csproj" />
+    <ProjectReference Include="..\TimedTeam.Data\TimedTeam.Data.csproj" />
+  </ItemGroup>
+
 </Project>
