@@ -1,3 +1,8 @@
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using TimedTeam.Services.Token;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -11,6 +16,26 @@ internal class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        // Add Connection String
+
+        // Add Token Service/Interface for Dependency Injection
+        builder.Services.AddScoped<ITokenService, TokenService>();
+
+        // Add Jwt Authentication
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+        {
+            options.RequireHttpsMetadata = false;
+            options.SaveToken = true;
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                ValidAudience = builder.Configuration["Jwt:Audience"],
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+            };
+        });
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -21,6 +46,9 @@ internal class Program
         }
 
         app.UseHttpsRedirection();
+
+        // Add AuthenticationMiddleware to the IApplicationBuilder, enabling authentication capabilities
+        app.UseAuthentication();
 
         app.UseAuthorization();
 
