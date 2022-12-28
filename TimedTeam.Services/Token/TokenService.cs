@@ -5,6 +5,9 @@ using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using TimedTeam.Data;
+using TimedTeam.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace TimedTeam.Services.Token
 {
