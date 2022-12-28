@@ -1,4 +1,5 @@
 using TimedTeam.Services.Token;
+using Microsoft.AspNetCore.Authorization;
 
 
 internal class Program
@@ -51,4 +52,13 @@ ValidIssuer = Configuration["Jwt:Issuer"],
 ValidAudience = Configuration["Jwt:Audience"],
 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
 };
+
 });
+
+app.UseAuthentication();
+
+app.UseAuthorization();
+
+
+
+
