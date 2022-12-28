@@ -31,9 +31,9 @@ namespace Chitter.WebAPI.Controllers
 
             if (registerResult)
             {
-                return Ok("New Chitter user successfully registered!");
+                return Ok("New user successfully registered!");
             }
-            return BadRequest("New Chitter user could NOT be created. Please try again.");
+            return BadRequest("New user could NOT be created. Please try again.");
         }
 
         [Authorize]
