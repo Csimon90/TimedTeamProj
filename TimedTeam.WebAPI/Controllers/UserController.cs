@@ -11,5 +11,10 @@ namespace TimedTeam.WebAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private ApplicationDbContext _context;
+        public CommentController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
     }
 }
