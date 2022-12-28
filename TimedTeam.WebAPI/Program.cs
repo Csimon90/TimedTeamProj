@@ -1,5 +1,11 @@
+using TimedTeam.Services.Token;
+using Microsoft.AspNetCore.Authorization;
+
+
 internal class Program
 {
+
+
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
@@ -29,3 +35,30 @@ internal class Program
         app.Run();
     }
 }
+
+
+services.AddScoped<IUserService, UserService>();
+services.AddScoped<IToken, TokenService>();
+
+.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+options.RequireHttpsMetadata = false;
+options.SaveToken = true;
+options.TokenValidationParameters = new TokenValidationParameters
+{
+ValidateIssuer = true,
+ValidateAudience = true,
+ValidIssuer = Configuration["Jwt:Issuer"],
+ValidAudience = Configuration["Jwt:Audience"],
+IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+};
+
+});
+
+app.UseAuthentication();
+
+app.UseAuthorization();
+
+
+
+
