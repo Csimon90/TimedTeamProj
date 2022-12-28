@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedTeam.API", "TimedTeam.API\TimedTeam.API.csproj", "{4574E55C-D28A-4681-9482-34F8443857E5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedTeam.Data", "TimedTeam.Data\TimedTeam.Data.csproj", "{7C0D1856-78DF-48AF-B82E-9E52E0824C3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedTeam.Models", "TimedTeam.Models\TimedTeam.Models.csproj", "{F1FC0D91-1B4F-474D-8DFA-F916FC89D45C}"
