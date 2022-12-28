@@ -1,13 +1,11 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
-namespace TimedTeam.Data
+namespace TimedTeam.WebAPI.Controllers
 {
-    public class ApplicationDbContext
+    public class Controllers
     {
         
     }
