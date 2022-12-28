@@ -6,6 +6,6 @@ namespace TimedTeam.Models.Reply
     {
         public string? Text { get; set; }
         public int AuthorID { get; set; }
-        public List<CommentListItem> MyProperty { get; set; }
+        public List<CommentListItem> Comments { get; set; }
     }
 }

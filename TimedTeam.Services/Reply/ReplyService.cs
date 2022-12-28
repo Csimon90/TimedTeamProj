@@ -17,8 +17,7 @@ namespace TimedTeam.Services.Reply
         {
             var replyEntity = new ReplyEntity
             {
-                Text = reply.Text,
-                CreatedUtc = DateTimeOffset.Now
+                Text = reply.Text
             };
 
             _context.Replies.Add(replyEntity);
@@ -28,17 +27,16 @@ namespace TimedTeam.Services.Reply
             return numberOfChanges == 1;
         }
 
-        public async Task<ReplyDetail?> GetReplyByIDAsync(int commentID)
+        public async Task<ReplyDetail?> GetReplyByIDAsync(int commentId)
         {
-            var replyEntity = await _dbContext.Replies
+            var replyEntity = await _context.Replies
             .FirstOrDefaultAsync(e => 
             e.Id == commentId);
 
             return replyEntity is null ? null : new ReplyDetail
             {
                 Id = replyEntity.Id,
-                Text = replyEntity.Text,
-                CreatedUtc = replyEntity.CreatedUtc,
+                Text = replyEntity.Text
             };
         }
     }

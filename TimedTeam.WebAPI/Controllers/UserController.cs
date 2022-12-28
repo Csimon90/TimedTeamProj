@@ -40,7 +40,7 @@ namespace Chitter.WebAPI.Controllers
         [HttpGet, Route("{userID}")]
         public async Task<IActionResult> GetByID(int userID)
         {
-            var userInfo = await _userService.GetUserByIDAsync(userID);
+            var userInfo = await _userService.GetUserByIdAsync(userID);
 
             if (userInfo is null)
             {

@@ -13,7 +13,7 @@ namespace TimedTeam.Services.User
         {
             _context = context;
         }
-        async Task<bool> RegisterUserAsync(UserRegister model)
+        public async Task<bool> RegisterUserAsync(UserRegister model)
         {
             if (await GetUserByEmailAsync(model.Email) != null || await GetUserByUsernameAsync(model.Username) != null)
             {

@@ -2,6 +2,7 @@ using TimedTeam.Data;
 using TimedTeam.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using TimedTeam.Models.Comment;
+using TimedTeam.Data.Entities;
 
 namespace TimedTeam.Services.Comment
 {
@@ -29,7 +30,7 @@ namespace TimedTeam.Services.Comment
         }
         public async Task<CommentDetail?> GetCommentByIDAsync(int postID)
         {
-            var commentEntity = await _dbContext.Comments
+            var commentEntity = await _context.Comments
             .FirstOrDefaultAsync(e => 
             e.Id == postID);
 

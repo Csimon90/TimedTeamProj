@@ -20,7 +20,7 @@ namespace TimedTeam.Services.Post
                 Title = post.Title,
                 Content = post.Content,
                 CreatedUtc = DateTimeOffset.Now,
-                OwnerID = _userId
+                AuthorId = _userId
             };
 
             _context.Posts.Add(postEntity);
