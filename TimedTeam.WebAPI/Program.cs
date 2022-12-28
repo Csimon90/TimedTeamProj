@@ -22,6 +22,7 @@ internal class Program
         builder.Services.AddSwaggerGen();
 
         // Add Connection String
+        builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         // Add User Service/Interface for Dependency Injection
         builder.Services.AddScoped<IUserService, UserService>();
@@ -103,3 +104,30 @@ internal class Program
         app.Run();
     }
 }
+
+
+services.AddScoped<IUserService, UserService>();
+services.AddScoped<IToken, TokenService>();
+
+.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+options.RequireHttpsMetadata = false;
+options.SaveToken = true;
+options.TokenValidationParameters = new TokenValidationParameters
+{
+ValidateIssuer = true,
+ValidateAudience = true,
+ValidIssuer = Configuration["Jwt:Issuer"],
+ValidAudience = Configuration["Jwt:Audience"],
+IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+};
+
+});
+
+app.UseAuthentication();
+
+app.UseAuthorization();
+
+
+
+

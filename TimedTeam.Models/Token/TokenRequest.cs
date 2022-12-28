@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
+
 namespace TimedTeam.Models.Token
 {
     public class TokenRequest
