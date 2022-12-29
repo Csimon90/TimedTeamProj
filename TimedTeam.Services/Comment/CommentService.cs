@@ -19,6 +19,7 @@ namespace TimedTeam.Services.Comment
             var commentEntity = new CommentEntity
             {
                 Text = comment.Text,
+                PostId = comment.PostId,
                 CreatedUtc = DateTimeOffset.Now
             };
 

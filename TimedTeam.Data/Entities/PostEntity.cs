@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using TimedTeam.Data.Entities;
 
 namespace TimedTeam.Data.Entities
 {
@@ -13,6 +12,6 @@ namespace TimedTeam.Data.Entities
         public int AuthorId { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
         // virtual list comments
-        public virtual ICollection<CommentEntity> Comments { get; } = new List<CommentEntity>();
+        public virtual List<CommentEntity> Comments { get; } = new List<CommentEntity>();
     }
 }

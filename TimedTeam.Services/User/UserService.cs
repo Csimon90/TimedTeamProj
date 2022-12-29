@@ -25,6 +25,8 @@ namespace TimedTeam.Services.User
                 Email = model.Email,
                 Username = model.Username,
                 Password = model.Password,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
                 DateCreated = DateTime.Now
             };
 

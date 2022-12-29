@@ -20,7 +20,7 @@ namespace TimedTeam.Services.Token
             _context = context;
             _configuration = configuration;
         }
-        public async Task<TokenResponse> GetTokenAsync(TokenRequest model) 
+        public async Task<TokenResponse?> GetTokenAsync(TokenRequest model) 
         {
             var userEntity = await GetValidUserAsync(model);
 
@@ -30,7 +30,7 @@ namespace TimedTeam.Services.Token
             }
             return GenerateToken(userEntity);
         }
-        private async Task<UserEntity> GetValidUserAsync(TokenRequest model) 
+        private async Task<UserEntity?> GetValidUserAsync(TokenRequest model) 
         {
             var userEntity = await _context.Users.FirstOrDefaultAsync(user => user.Username.ToLower() == model.Username.ToLower());
 

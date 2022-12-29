@@ -7,7 +7,8 @@ namespace TimedTeam.Models.Comment
     {
         public string? Text { get; set; }
         public int AuthorID { get; set; }
+        public virtual PostDetail Posts {get; set;}
         public List<ReplyListItem> Replies {get;set;}
-        public List<PostListItem> Posts {get;set;}
+        // public List<PostListItem> Posts {get;set;}
     }
 }

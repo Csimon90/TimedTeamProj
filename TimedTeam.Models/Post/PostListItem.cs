@@ -6,7 +6,8 @@ namespace TimedTeam.Models.Post
     {
         public int Id { get; set; }
         public string? Title { get; set; }
+        public string? Content { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
-        public List<CommentListItem> Comments {get;set;}
+        public List<CommentListItem> Comments { get; } = new List<CommentListItem>();
     }
 }

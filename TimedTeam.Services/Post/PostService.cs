@@ -37,6 +37,7 @@ namespace TimedTeam.Services.Post
             {
                 Id = entity.Id,
                 Title = entity.Title,
+                Content = entity.Content,
                 CreatedUtc = entity.CreatedUtc  
             })
             .ToListAsync();

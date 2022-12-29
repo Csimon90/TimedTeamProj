@@ -10,9 +10,11 @@ namespace TimedTeam.Data.Entities
         [Required]
         public string? Text { get; set; }
         public int AuthorId { get; set; }
+        public int PostId { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
+        [ForeignKey(nameof(ReplyEntity.Text))]
         public virtual ICollection<ReplyEntity> Replies { get; } = new List<ReplyEntity>();
-        [ForeignKey(nameof(Id))]
-        public virtual ICollection<PostEntity> Posts { get; } = new List<PostEntity>();
+
+        // public virtual PostEntity? Posts { get; set; }
     }
 }
